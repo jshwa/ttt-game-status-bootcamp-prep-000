@@ -32,3 +32,15 @@ end
 def full?(board)
   board.all? {|pos| pos == "X" || pos == "O"}
 end
+
+def draw?(board)
+  if !won? && full?
+end
+
+def over?(board)
+  if won? || draw?
+end
+
+def winner(board)
+  
+end
