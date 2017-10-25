@@ -45,5 +45,5 @@ def over?(board)
 end
 
 def winner(board)
-
+  return board[win?(board)[0]] 
 end
